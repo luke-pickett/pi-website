@@ -1,0 +1,25 @@
+.desktop {
+    display: none;
+}
+
+
+body {
+    background-color: #121212;
+    font-family: DM Sans, Roboto, -apple-system, Segoe UI, sans-serif;;
+    color: white;
+}
+
+article {
+    margin: 2% 10%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+}
