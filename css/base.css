@@ -9,8 +9,8 @@ body {
     color: white;
 }
 
-article {
-    margin: 2% 10%;
+.mobile ul {
+    list-style: none;
 }
 
 

@@ -2,6 +2,18 @@
     background-color: #282828;
 }
 
+#mobile-nav-list {
+    display: none;
+}
+
+#mobile-nav-list li {
+    border: solid black;
+}
+
+article {
+    margin: 2% 10% 35%;
+}
+
 footer {
     justify-items: center;
     position: fixed;
@@ -20,4 +32,10 @@ footer img {
 footer svg {
     width: 1em;
     height: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    article {
+        margin-bottom: 10%;
+    }
 }
